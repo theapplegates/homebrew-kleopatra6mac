@@ -21,7 +21,7 @@ class Kleopatra < Formula
   depends_on "kf6-kconfig"
   depends_on "kf6-kconfigwidgets"
   depends_on "kf6-kcoreaddons"
-  # depends_on "kf6-kdbusaddons"
+  depends_on "kf6-kdbusaddons"
   depends_on "kf6-kiconthemes"
   depends_on "kf6-kio"
   depends_on "kf6-kitemviews"
