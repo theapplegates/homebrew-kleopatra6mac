@@ -12,32 +12,33 @@ class Kleopatra < Formula
   depends_on "extra-cmake-modules" => :build
   depends_on "gettext" => :build
   depends_on "qt@6" => :build
-  depends_on "kf6-kdoctools" => :build
+  depends_on "kdoctools"
+  depends_on "kdoctools" => :build
 
   # Runtime dependencies - Qt6 and KDE Frameworks 6
   depends_on "qt@6"
-  depends_on "kf6-karchive"
-  depends_on "kf6-kcompletion"
-  depends_on "kf6-kconfig"
-  depends_on "kf6-kconfigwidgets"
-  depends_on "kf6-kcoreaddons"
-  depends_on "kf6-kiconthemes"
-  depends_on "kf6-kio"
-  depends_on "kf6-kitemviews"
-  depends_on "kf6-kjobwidgets"
-  depends_on "kf6-knotifications"
-  depends_on "kf6-kservice"
-  depends_on "kf6-kstatusnotifieritem"
-  depends_on "kf6-ktextwidgets"
-  depends_on "kf6-kwidgetsaddons"
-  depends_on "kf6-kxmlgui"
-  depends_on "kf6-kcmutils"
-  depends_on "kf6-kcontacts"
+  depends_on "kde-mac/kde/kf6-karchive"
+  depends_on "kde-mac/kde/kf6-kcompletion"
+  depends_on "kde-mac/kde/kf6-kconfig"
+  depends_on "kde-mac/kde/kf6-kconfigwidgets"
+  depends_on "kde-mac/kde/kf6-kcoreaddons"
+  depends_on "kde-mac/kde/kf6-kiconthemes"
+  depends_on "kde-mac/kde/kf6-kio"
+  depends_on "kde-mac/kde/kf6-kitemviews"
+  depends_on "kde-mac/kde/kf6-kjobwidgets"
+  depends_on "kde-mac/kde/kf6-knotifications"
+  depends_on "kde-mac/kde/kf6-kservice"
+  depends_on "kde-mac/kde/kf6-kstatusnotifieritem"
+  depends_on "kde-mac/kde/kf6-ktextwidgets"
+  depends_on "kde-mac/kde/kf6-kwidgetsaddons"
+  depends_on "kde-mac/kde/kf6-kxmlgui"
+  depends_on "kde-mac/kde/kf6-kcmutils"
+  depends_on "kde-mac/kde/kf6-kcontacts"
 
   # PIM and crypto dependencies
   depends_on "gpgme"
-  depends_on "kf6-gpgme"
-  depends_on "libkleo"
+  depends_on "kde-mac/kde/kf6-gpgme"
+  depends_on "theapplegates/libkleo"
   depends_on "mimetreeparser"
   depends_on "kmime"
 
