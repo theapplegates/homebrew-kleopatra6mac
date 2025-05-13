@@ -1,8 +1,9 @@
 class QgpgmeQt6 < Formula
   desc "Qt6 bindings for GPGME"
   homepage "https://invent.kde.org/pim/qgpgme-qt6"
+
   url "https://invent.kde.org/pim/qgpgme-qt6/-/archive/v1.23.2/qgpgme-qt6-v1.23.2.tar.bz2"
-  sha256 "2f1f7328857a9bc57c34d42fb02c4def53b3cd62c973f6177e37e6c638756bab"
+  sha256 "75e0928abfe1e6b8cdb4e0a84aaabc37735405ead1d4cd4f70fe33b250648df5"
   license "LGPL-2.1-only"
 
   depends_on "cmake" => :build
