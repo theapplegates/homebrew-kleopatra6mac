@@ -22,4 +22,3 @@ license  "LGPL-2.1-only"
   test do
     assert_predicate include/"qgpgme_export.h", :exist?
   end
-
