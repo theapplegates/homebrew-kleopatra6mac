@@ -2,8 +2,8 @@ class QgpgmeQt6 < Formula
   desc "Qt6 bindings for GPGME"
   homepage "https://invent.kde.org/pim/qgpgme-qt6"
 
-  url "https://invent.kde.org/pim/qgpgme-qt6/-/archive/v1.23.2/qgpgme-qt6-v1.23.2.tar.bz2"
-  sha256 "75e0928abfe1e6b8cdb4e0a84aaabc37735405ead1d4cd4f70fe33b250648df5"
+  url "https://download.kde.org/stable/release-service/23.08.2/pim/qgpgme-qt6/qgpgme-qt6-v1.23.2.tar.bz2"
+  sha256 "7b23420c3b104c132b4f5fd72456688cded9377167cc3b48f7dddd00031e3e13"
   license "LGPL-2.1-only"
 
   depends_on "cmake" => :build
@@ -22,6 +22,10 @@ class QgpgmeQt6 < Formula
   end
 
   test do
-    assert_predicate include/"qgpgme_export.h", :exist?
+      assert_predicate include/"qgpgme_export.h", :exist?
+    end
+  
+  # ← this closes the `test do`
+  
   end
-end
+  # ← this closes the `class QgpgmeQt6 < Formula` 
