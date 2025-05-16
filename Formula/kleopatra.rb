@@ -18,6 +18,7 @@ class Kleopatra < Formula
   # Runtime dependencies - Qt6 and KDE Frameworks 6
   depends_on "qt@6"
   depends_on "kde/kde/kf6-karchive"
+  depends_on "theapplegates/kleopatra6mac/kf6-karchive"
   depends_on "kde/kde/kf6-kcompletion"
   depends_on "kde/kde/kf6-kconfig"
   depends_on "kde/kde/kf6-kconfigwidgets"
