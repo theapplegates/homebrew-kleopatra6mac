@@ -19,7 +19,7 @@ class Kleopatra < Formula
   depends_on "qt@6"
   depends_on "theapplegates/kleopatra6mac/kf6-karchive"
   depends_on "theapplegates/kleopatra6mac/kf6-kcompletion"
-  depends_on "theapplegates/kleopatra6mac-kconfig"
+  depends_on "theapplegates/kleopatra6mac/kf6-kconfig"
   depends_on "theapplegates/kleopatra6mac/kf6-kconfigwidgets"
   depends_on "theapplegates/kleopatra6mac/kf6-kcoreaddons"
   depends_on "theapplegates/kleopatra6mac/kf6-kiconthemes"
