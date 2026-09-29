@@ -1,3 +1,9 @@
+
+
+Please use this instead. https://github.com/shredthaGNAR/kleopatra-macos-arm64
+
+
+
 # Kleopatra 24.02.2 for macOS (KF6/Qt6)
 
 This repository provides a Homebrew formula and installation scripts for Kleopatra 24.02.2 on macOS, using KDE Frameworks 6 (KF6) and Qt 6. It's an updated version of the original [kleopatra4mac](https://github.com/algertc/homebrew-kleopatra4mac) project, which is no longer maintained.
